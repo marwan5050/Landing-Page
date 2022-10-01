@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <!-- fontawsome -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- normaliz the page -->
+    <link rel="stylesheet" href="css/normaliz.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- css style -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- start setting box -->
+    <div class="setting-box">
+        <div class="tog">
+            <i class="fa fa-gear  sett"></i>
+        </div>
+        <div class="setting-container">
+            <div class="option-box">
+                <h2>choose:color</h2>
+                <ul class="colors-list">
+                    <li class="active" data-color="#ff9800"></li>
+                    <li data-color="#2196f3"></li>
+                    <li data-color="#f44336"></li>
+                    <li data-color="#4caf50"></li>
+                    <li data-color="#795548"></li>
+                </ul>
+            </div>
+            <div class="option-box">
+                <h3>random background</h3>
+                <div class="random-back">
+                    <!-- data-background is a custom attribute -->
+                    <span class="yes active" data-background="yes">yes</span>
+                <span class="no" data-background="no">no</span>
+                </div>
+            </div>
+<!-- show and hide bullet if i want -->
+            <!-- <div class="option-box">
+                <h3>show bullets</h3>
+                <div class="random-back">
+                    <span class="yes active" data-display="show">yes</span>
+                <span class="no" data-background="hide">no</span>
+                </div>
+            </div> -->
+            <button class="rest">Rest options</button>
+        </div>
+    </div>
+
+<!-- start nav bullets -->
+<div class="nav-bullets">
+    <div class="bullet" data-section = '.about-us'>
+        <div class="tooltip">About Us</div>
+    </div>
+    <div class="bullet" data-section = '.items'>
+        <div class="tooltip">Our Gallery</div>
+    </div>
+    <div class="bullet" data-section = '.time-line'>
+        <div class="tooltip">Time Line</div>
+    </div>
+    <div class="bullet" data-section = '.features'>
+        <div class="tooltip">Our Features</div>
+    </div>
+    <div class="bullet" data-section = '.testimonilas'>
+        <div class="tooltip">testimonials</div>
+    </div>
+    
+</div>
+
+ <!-- start landing -->
+ <div class="landing-page">
+  <div class="overlay"></div>
+    <div class="header-area">
+        <div class="logo">
+            <div>cot</div>
+        </div>
+        <div class="links-container">
+            <ul class="header-list ">
+                <li class="active"><a href="#" data-section=".landing-page">Home</a></li>
+                <li><a href="#" data-section=".about-us"> About </a></li>
+                <li><a href="#" data-section=".items"> gallery</a></li>
+                <li><a href="#" data-section=".features"> features </a></li>
+                <li><a href="#" data-section=".contact"> contact us </a></li>
+            </ul>
+            <div class="toggel-icon">
+                <i class="fa-solid fa-bars fa-xl"></i>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="intro-text">
+        <h1>we are <span> creative </span> agencey</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit minima dolore ipsam.</p>
+    </div>
+ </div>
+
+
+
+<!-- start about section -->
+
+<div class="container">
+    <div class="about-us">
+        <div class="info">
+            <h2>About Us</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur omnis impedit temporibus cum officia perferendis Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam quae, corrupti quo dolorem ad tempore nihil asperiores facere fuga cumque magnam ea laboriosam eveniet eligendi impedit delectus odit voluptate sint!</p>
+        </div>
+        <div class="image-box">
+            <img src="images/7.jpg" alt="photo">
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="container">
+    <div class="gallery-head">
+    <h2>our gallery</h2>
+</div>
+    <div class="items">
+        <div class="item">
+            <div class="img-item">
+                <img src="./images/8.png" class="img-select" alt="photo">
+            </div>
+        </div>
+
+
+        <div class="item">
+            <div class="img-item">
+                <img src="./images/9.png" class="img-select" alt="photo">
+            </div>
+        </div>
+
+
+        <div class="item">
+            <div class="img-item">
+                <img src="./images/10.png"class="img-select" alt="photo">
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="img-item">
+                <img src="./images/11.png" class="img-select" alt="photo">
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="img-item">
+                <img src="./images/12.jpg" class="img-select" alt="photo">
+            </div>
+        </div>
+
+
+        <div class="item">
+            <div class="img-item">
+                <img src="./images/13.jpg" class="img-select" alt="photo">
+            </div>
+        </div>
+
+
+        <div class="item">
+            <div class="img-item">
+                <img src="./images/14.png" class="img-select" alt="photo">
+            </div>
+        </div>
+
+
+        <div class="item">
+            <div class="img-item">
+                <img src="./images/15.jpg" class="img-select" alt="photo">
+            </div>
+        </div>
+
+
+        <div class="item">
+            <div class="img-item">
+                <img src="./images/16.jpg" class="img-select" alt="photo">
+            </div>
+        </div>
+
+
+        <div class="item">
+            <div class="img-item">
+                <img src="./images/17.jpg" class="img-select" alt="photo">
+            </div>
+        </div>
+    </div>
+    
+</div>
+
+<div id ="pop" class="light-container">
+    <div class="light-item">
+    <i id="prev" class="far fa-arrow-alt-circle-left"></i>
+    <i id="close" class="far fa-times-circle"></i>
+    <i id="next" class="far fa-arrow-alt-circle-right"></i>
+    </div>
+</div>
+
+
+<!-- start timeline section -->
+
+<!-- <div class="time-line">
+    <div class="container">
+        <div class="time-content">
+
+            <div class="year">2018</div>
+
+            <div class="left">
+                <h3>test heading</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio quae vero ipsum veritatis, saepe aperiam!</p>
+            </div>
+
+
+            <div class="right">
+                <h3>test heading</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio quae vero ipsum veritatis, saepe aperiam!</p>
+            </div>
+        </div>
+    </div>
+</div> -->
+
+
+<div class="time-line">
+    <div class="container">
+
+        <div class="year">2018</div>
+
+        <div class="time-content">
+            <div class="left">
+                <div class="content">
+                    <h3>testing head</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, ratione necessitatibus odit nemo aspernatur reprehenderit. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta voluptas est </p>
+                </div>
+            </div>
+
+            <div class="right">
+                <div class="content">
+                    <h3>testing head</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, ratione necessitatibus odit nemo aspernatur reprehenderit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, voluptates </p>
+                </div>
+                
+            </div>
+        </div>
+
+        
+        
+        <div class="time-content">
+            <div class="year second">2016</div>
+            <div class="left">
+                <div class="content">
+                    <h3>testing head</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, ratione necessitatibus odit nemo aspernatur reprehenderit. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta voluptas est </p>
+            </div>
+            </div>
+
+            <div class="right">
+                <div class="content">
+                    <h3>testing head</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, ratione necessitatibus odit nemo aspernatur reprehenderit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, voluptates </p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- start our featurs -->
+
+<div class="features">
+    <h2>our features</h2>
+    <div class="container">
+        <div class="features-item">
+            <div class="feat">
+                <div class="img-feat">
+                    <img src="./images/18.png" alt="photo">
+                </div>
+                <div class="feat-content">
+                    <h3>resposive web </h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+
+
+
+            <div class="feat">
+                <div class="img-feat">
+                    <img src="./images/19.jpg" alt="photo">
+                </div>
+                <div class="feat-content">
+                    <h3>online shop </h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+
+
+
+            <div class="feat">
+                <div class="img-feat">
+                    <img src="./images/21.jpg" alt="photo">
+                </div>
+                <div class="feat-content">
+                    <h3>fast maintenance </h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+
+
+
+            <div class="feat">
+                <div class="img-feat">
+                    <img src="./images/21.jpg" alt="photo">
+                </div>
+                <div class="feat-content">
+                    <h3>s e o </h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+
+
+
+            <div class="feat">
+                <div class="img-feat">
+                    <img src="./images/18.png" alt="photo">
+                </div>
+                <div class="feat-content">
+                    <h3>corporate team  </h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+
+
+
+
+            <div class="feat">
+                <div class="img-feat">
+                    <img src="./images/23.jpg" alt="photo">
+                </div>
+                <div class="feat-content">
+                    <h3>special design </h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+        </div>
+
+
+        
+    </div>
+</div>
+    
+
+<!-- start testimonials -->
+<div class="testimonilas">
+    <div class="container">
+        <h2>testim<span>onials</span></h2>
+        
+        <div class="slider">
+            <div class="slider-item">
+                <div class="review-box">
+                    <div class="slide">
+                        <div class="card">
+                            <div class="profile">
+                                <img src="/images/client-sm-2.jpg" alt="">
+                                <div>
+                                    <h3>Jay Shah</h3>
+                                    <div class="loc">
+                                        <h5>founder at icomatic pvt ltd</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <p>"Easy to use, reasonably priced simply dummy text of the printing and typesetting industry. Quidam lisque persius interesset his et, in quot quidam possim iriure.â€</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slider-item">
+                <div class="review-box ">
+                    <div class="slide">
+                        <div class="card change">
+                            <div class="profile">
+                                <img src="./images/client-sm-1.jpg" alt="">
+                                <div>
+                                    <h3>Dennis Jacques</h3>
+                                    <div class="loc">
+                                        <h5>Usher From USA</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="change">"Easy to use, reasonably priced simply dummy text of the printing and typesetting industry. Quidam lisque persius interesset his et, in quot quidam possim iriure.â€</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- start contact us -->
+
+<div class="contact">
+    <div class="overlay"></div>
+    <div class="container">
+        <h2>contact us</h2>
+        <form>
+            <div class="left">
+                <input type="text" placeholder="Your Name" name="username">
+                <input type="email" placeholder="Your Email" name="useremail">
+                <input type="tel" placeholder="Your Mobile" name="usermob">
+                <input type="text" placeholder="subject" name="subject">
+            </div>
+            <div class="right">
+                <textarea name="message" placeholder="Your Massage"></textarea>
+                <input type="submit"  value="send">
+            </div>
+        </form>
+    </div>
+</div>
+
+<!-- start footer -->
+<div class="footer">
+    <div>all copyRight <span class="copy">  &copy; </span> reserved <span class="right">&reg; </span></div>
+</div>
+
+<!-- start to top butt -->
+
+<div class="up">
+    <i class="fa-solid fa-arrow-up"></i>
+</div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
